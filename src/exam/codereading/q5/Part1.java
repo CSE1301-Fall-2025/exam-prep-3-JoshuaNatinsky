@@ -20,3 +20,9 @@ public class Part1 {
 		}
 	}
 }
+
+// 2 - d
+// 3 - e
+// 4 - a
+// 5 - b
+// 6 - d

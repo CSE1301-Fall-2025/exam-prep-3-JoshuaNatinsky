@@ -9,3 +9,8 @@ public class Part1 {
 		System.out.println ( v3 ) ;
 	}
 }
+
+// C
+// B
+// S : v 4 . 0
+// v 4 . 0

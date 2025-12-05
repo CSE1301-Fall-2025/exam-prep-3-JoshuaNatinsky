@@ -23,3 +23,9 @@ public class Part2 {
 		}
 	}
 }
+
+// 1 - earth
+// 4 - wind
+// 2 - water
+// 3 - fire
+// 0 - heart

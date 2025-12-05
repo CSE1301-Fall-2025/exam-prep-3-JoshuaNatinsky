@@ -8,19 +8,25 @@ package exam.codewriting.q2;
 public class Planet {
 
 	// Define your instance variables here
-	
+	private String name;
+	private int mass;
+
 	// Write the constructor for the Planet class
-	
+	public Planet(String name, int mass){
+		this.name = name;
+		this.mass = mass;
+	}
+
 	public String getName () {
-		return ""; //FIXME
+		return this.name; //FIXME
 	}
 	
 	public int getMass () {
-		return 0; //FIXME
+		return this.mass; //FIXME
 	}
 	
 	public String toString () {
-		return ""; //FIXME
+		return name + " (mass = " + mass + ")" ; //FIXME
 	}
 	
 	/**
@@ -29,7 +35,8 @@ public class Planet {
 	* involved in the collision, and it should be named after both planets.
 	*/
 	public Planet collide ( Planet other ) {
-		return null; //FIXME
+		Planet newPlanet = new Planet(this.name + "-" + other.name, this.mass + other.mass);
+		return newPlanet; //FIXME
 	}
 	
 	

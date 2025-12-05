@@ -10,3 +10,10 @@ public class Part2 {
 		System.out.println(v4.isEquivalent( v4b ) ) ;
 	}
 }
+
+// C
+// C
+// B
+// S : v 5 . 0
+// S : v 4 . 1
+// false

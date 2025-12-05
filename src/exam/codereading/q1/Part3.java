@@ -9,3 +9,9 @@ public class Part3 {
 		System.out.println(v5) ;
 	}
 }
+
+// C
+// S : v 5 . 1
+// L: v 5 . 1
+// S : v 5 . 2
+//  v 5 . 2

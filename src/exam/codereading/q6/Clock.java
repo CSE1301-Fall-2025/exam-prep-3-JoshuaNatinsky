@@ -26,10 +26,10 @@ public class Clock {
 	public static void main(String[] args) {
 		//What will print?
 		Clock c = new Clock(3 ,58);
-		System.out.println (c);
+		System.out.println (c); 
 		c.tick();
 		System.out.println(c);
-		c = new Clock (3, 58);
+		c = new Clock (3, 58); // resets c to 3:58
 		c.tick();
 		c.tick();
 		System.out.println (c);
@@ -45,3 +45,13 @@ public class Clock {
 	}
 
 }
+
+//3:58
+//3:59
+//4:0
+
+//2:50
+//2:50
+//2:51
+//3:51
+
